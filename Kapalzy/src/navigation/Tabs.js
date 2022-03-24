@@ -26,6 +26,7 @@ const Tabs = () => {
           backgroundColor: '#fff',
           borderRadius: 15,
           height: 60,
+          ...styles.shadow,
         },
       }}>
       <Tab.Screen
@@ -95,5 +96,18 @@ const Tabs = () => {
     </Tab.Navigator>
   );
 };
+
+const styles = StyleSheet.create({
+  shadow: {
+    shadowColor: '##1c2029',
+    shadowOffset: {
+      width: 0,
+      height: 10,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.5,
+    elevation: 5,
+  },
+});
 
 export default Tabs;
