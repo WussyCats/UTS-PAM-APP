@@ -19,9 +19,9 @@ const Tabs = () => {
         headerShown: false,
         tabBarStyle: {
           position: 'absolute',
-          bottom: 20,
-          right: 25,
-          left: 25,
+          bottom: 10,
+          right: 20,
+          left: 20,
           elevation: 0,
           backgroundColor: '#fff',
           borderRadius: 15,
