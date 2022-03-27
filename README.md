@@ -24,16 +24,23 @@ Aplikasi ini dibuat menggunakan:
 
 # SCEEENSHOT APLIKASI
 <b>TAMPILAN APLIKASI</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan Aplikasi.jpg" alt="Tampilan Aplikasi.jpg"></p>
+<p align="center"><img width="300" src="Ss/Tampilan Aplikasi.jpg" </p>
 
-<b>TAMPILAN SEARCHPAGE CASE 1</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan SearchPage Case 1.jpg" alt="Tampilan SearchPage 1.jpg"></p>
+<b>TAMPILAN HOME </b>
+<p align="center"><img width="300" src="Ss/Home.jpg" </p>\
 
-<b>TAMPILAN RESULTPAGE CASE 1</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan ResultPage Case 1.jpg" alt="Tampilan ResultPage 1.jpg"></p>
+<b>TAMPILAN DETAIL </b>
+<p align="center"><img width="300" src="Ss/Detail.jpg"</p>
 
-<b>TAMPILAN SEARCHPAGE CASE 2</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan SearchPage Case 2.jpg" alt="Tampilan SearchPage 2.jpg"></p>
+<b>TAMPILAN KONFIRMASI </b>
+<p align="center"><img width="300" src="Ss/Konfirmasi.jpg" </p>
 
-<b>TAMPILAN RESULTPAGE CASE 2</b>
-<p align="center"><img width="300" src="Screenshot/Tampilan ResultPage Case 2.jpg" alt="Tampilan ResultPage 2.jpg"></p>
+<b>TAMPILAN PEMBATALAN</b>
+<p align="center"><img width="300" src="Ss/Pembatalan.jpg" </p>
+
+<b>TAMPILAN LAINNYA</b>
+<p align="center"><img width="300" src="Ss/Lainnya.jpg" </p>
+
+
+<b>TAMPILAN LAINNYA</b>
+<p align="center"><img width="300" src="Ss/Tampilan ResultPage Case 2.jpg" alt="Tampilan ResultPage 2.jpg"></p>
