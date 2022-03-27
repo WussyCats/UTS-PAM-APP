@@ -40,7 +40,3 @@ Aplikasi ini dibuat menggunakan:
 
 <b>TAMPILAN LAINNYA</b>
 <p align="center"><img width="300" src="Ss/Lainnya.jpg" </p>
-
-
-<b>TAMPILAN LAINNYA</b>
-<p align="center"><img width="300" src="Ss/Tampilan ResultPage Case 2.jpg" alt="Tampilan ResultPage 2.jpg"></p>
