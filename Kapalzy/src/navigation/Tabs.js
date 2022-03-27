@@ -9,6 +9,7 @@ import Home from '../screens/Home';
 import OrderDetails from '../screens/OrderDetails';
 import OrderCancellation from '../screens/OrderCancellation';
 import Other from '../screens/Other';
+import HomeStack from '../screens/OrderStackScreen'
 
 const Tab = createBottomTabNavigator();
 
@@ -30,8 +31,8 @@ const Tabs = () => {
         },
       }}>
       <Tab.Screen
-        name="Home"
-        component={Home}
+        name="HomeStack"
+        component={HomeStack}
         options={{
           tabBarLabel: 'Home',
           tabBarLabelStyle: {

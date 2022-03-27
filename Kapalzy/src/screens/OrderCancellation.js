@@ -1,23 +1,46 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button} from 'react-native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const OrderCancellation = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Text>Order Cancellation!</Text>
-      <Button title='Click Here'onPress={() => alert('Button Clicked!!!')} />
+      <Text style={styles.Text}>Tidak Ada Pembatalan Tiket</Text>
+      <MaterialCommunityIcons
+        style={styles.userIcon}
+        name="cancel"
+        size={70}
+        color={'#082f82'}
+      />
     </View>
   );
 };
 
-
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#bedfed',
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    padding: 30,
+    width: '90%',
+    position: 'absolute',
+    top: '30%',
+    left: '5%',
+    shadowColor: '#000',
+    elevation: 5,
+    height: '30%',
   },
-})
+  Text: {
+    fontSize: 20,
+    marginTop: '25%',
+    color: '#082f82',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    bottom: '19%',
+  },
+  userIcon: {
+    paddingLeft: '38%',
+    bottom: '10%',
+  },
+});
 
 export default OrderCancellation;

@@ -8,10 +8,10 @@ import {
   Button,
 } from 'react-native';
 import {Jadwal} from '../database/db';
-import style from '../assets/OrderDetailsStyle';
+import style from '../assets/OrderStyle';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
-const OrderDetails = ({route, navigation}) => {
+const Order = ({route, navigation}) => {
   const {data} = route.params;
 
   const OnSubmit = () => {
@@ -34,6 +34,10 @@ const OrderDetails = ({route, navigation}) => {
         return (
           <View key={i} style={style.container}>
             <Text style={style.text}>Kapalzy</Text>
+            <Text style={style.text2}>
+              Kuota tersedia ({printJadwal.kuota}){' '}
+            </Text>
+            <Text style={style.text3}>Rincian Tiket</Text>
             <View style={style.container2}>
               <Text style={style.text4}>{printJadwal.pelabuhan_awal}</Text>
               <FontAwesome5
@@ -59,10 +63,12 @@ const OrderDetails = ({route, navigation}) => {
               <Text style={style.text8}>Dewasa x 1</Text>
               <Text style={style.text9}>{printJadwal.harga}</Text>
             </View>
+            <Text style={style.text10}>Total</Text>
+            <Text style={style.text11}>{printJadwal.harga}</Text>
             <View style={style.container3}>
               <TouchableOpacity style={style.button} 
-              onPress={() => navigation.navigate('Home')}>
-                <Text style={style.textButton}>Batalkan</Text>
+              onPress={OnSubmit}>
+                <Text style={style.textButton}>Konfirmasi Tiket</Text>
               </TouchableOpacity>
             </View>
           </View>
@@ -74,4 +80,4 @@ const OrderDetails = ({route, navigation}) => {
   return <View>{calldata()}</View>;
 };
 
-export default OrderDetails;
+export default Order;
